@@ -26,6 +26,7 @@ jobs:
       - name: Run a one-line script
         run: python -m nose2
   print-verdict:
+    needs: run-tests
     runs-on: ubuntu-latest
     steps:
       - run: echo Send email
