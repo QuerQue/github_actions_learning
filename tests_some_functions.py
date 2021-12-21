@@ -12,7 +12,7 @@ class TestSum(unittest.TestCase):
 class TestMyFunctions(unittest.TestCase):
     
     def test_hello_name_f(self):
-        self.assertEqual(some_functions.hello_name_f('Tomek'), 'Hello Tomek', "Should be Hello Tomek")
+        self.assertEqual(some_functions.hello_name_f('Tomek'), 'Hello Tomek!', "Should be Hello Tomek")
 
 
 if __name__ == '__main__':
